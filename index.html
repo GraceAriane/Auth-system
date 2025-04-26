@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="cont-btns">
+        <button class="btn-inscription">S'inscrire</button>
+        <button class="btn-connection">Se connecter</button>
+        <button class="btn-deco">Se déconnecter</button>
+    </div>
+
+    <h1>Bienvenue, inscrivez-vous ou connectez-vous.</h1>
+    <p class="info">Contenu public.</p>
+
+    <form class="form-inscription">
+        <h2>Inscription</h2>
+
+        <label for="emailInscription">Entrez un email</label>
+        <input type="email" id="emailInscription" class="email-inscription">
+
+        <label for="mdpInscription">Entrez un mdp</label>
+        <input type="password" id="mdpInscription" class="mdp-inscription">
+
+        <button type="submit">S'inscrire</button>
+    </form>
+
+    <form class="form-connection">
+        <h2>Connection</h2>
+
+        <label for="emailconnection">Entrez un email</label>
+        <input type="email" id="emailconnection" class="email-connection">
+
+        <label for="mdpConnection">Entrez un mdp</label>
+        <input type="password" id="mdpConnection" class="mdp-connection">
+
+        <button type="submit">Se connecter</button>
+    </form>
+
+
+
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
