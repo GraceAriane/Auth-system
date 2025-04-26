@@ -26,6 +26,7 @@ This project was built while following a course on Udemy as part of a training t
 
 ## 🚀 Getting Started
 
+- Live Site - [Simple Auth system](https://auth-system-jet.vercel.app/)
 
 ## 👨‍💻 Author
 
